@@ -1,0 +1,126 @@
+@font-face {
+    font-family: Retro;
+    src: url("font/RETROTECH.ttf") format(truetype);
+    font-style: Retro;
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    font-family: Retro;
+    font-style: Retro;
+    font-size: 52px;
+    color: white;
+}
+
+table{
+    height: 500px;
+    width: 800px;
+    border-radius: 10px;
+    background-color:rgb(62, 59, 59);
+    border: 5px groove RGB(237, 175, 5);
+    text-align: center;
+    margin: auto;
+}
+
+td, tr{
+    height: 40px;
+    width: 40px;
+    background-color: rgb(62, 59, 59);
+    border-radius: 5px;
+    border: 5px groove gray;
+}
+
+.fondoPrincipal{
+    background-image: url("img/fondoretro.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+.letrasrojas{
+    font-family: Retro;
+    font-style: Retro;
+    color: red;
+    font-size: 40px;
+    background-color: black;
+}
+
+.marcador{
+    font-family: Retro;
+    font-style: Retro;
+    background-color: black;
+    border: 5px solid black;
+    color: white;
+    border-bottom-color: white;
+    font-size: 32px;
+    margin-right: 50px;
+    
+}
+
+.fila0{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+}
+
+.fila1{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: rgb(62, 59, 59);
+}
+
+.fila2{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: rgb(239, 5, 5);
+}
+
+.fila3{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: rgb(239, 216, 5);  
+}
+
+.fila4{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: blue;
+}
+
+.fila5{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: violet;
+}
+
+.fila6{
+    Border: 1px outset grey;
+    Border-radius: 2px;
+    background: green;
+}
+
+.fila0{
+    Border: 0px;
+    Border-radius: 0;
+}
+
+.barrita{
+    background: url(img/barra.png);
+    background-size: 60%;
+    background-repeat: no-repeat;
+    background-position: center;
+    Border: 0px;
+    Border-radius: 0;
+}
+
+.bola{
+    border-radius: 100%;
+    border-color: white;
+    background-color: white;
+    width: 30px;
+    height: 30px;
+    margin: auto;
+}
